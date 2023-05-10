@@ -4,7 +4,7 @@ from bot.get_cfg import get_config
 
 class Config(object):
     # You can keep this default
-    SESSION_NAME = get_config("SESSION_NAME", "AHCompressorBot")
+    SESSION_NAME = get_config("SESSION_NAME", "BQCmUele4obJ2Lrbh7Kk7py-sDbJ3-sBHVwoNI3ECXEwom8AcDKIiiEfkSl4HBWcyA_U8wthIdPLqeA8snQNayW8BDiPneZnGrW5wqp7-lQas-sqbEV_fnAOuPKm4pohURfCRN0uRVoy4TtMgp5UvUpeFA7ySU8-Z9HfdAAlm43DmXWgZ5TkKDjbO-kJd4uWi5CMAg3Fa3PnF7_BkpnMVAkUaHODvuVaMB0dq6leXcvT72hsMbZGSWxOQRCynh5mMjhFnUrKd9QJdSG_PiztQMrhQ-Yemw2BzFF-wedqrs7bUnTI8AqsnkJ5bY6tlGhA2HkbB4OtvAZZYUo78q58aAKJAAAAAWJrmA8A")
     # Put MongoDB URL
     DATABASE_URL = get_config("DATABASE_URL", "")
     # get a token from @BotFather
